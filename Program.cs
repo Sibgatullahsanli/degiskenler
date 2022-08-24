@@ -24,7 +24,7 @@
         short s = 5;      //2 byte -32768 den 32768 e kadar tam sayı değer alabiliyorlar
         ushort us = 5;    //2 byt yer kaplar 0 dan 65365
 
-        short i16 = 2;    //2 byt 
+        int i16 = 2;    //2 byt 
         int i = 2;        //4 byt
         int i32 = 2;    //4 byt
         long i64 = 2;     //8 byt
