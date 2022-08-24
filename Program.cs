@@ -24,12 +24,12 @@
         short s = 5;      //2 byte -32768 den 32768 e kadar tam sayı değer alabiliyorlar
         ushort us = 5;    //2 byt yer kaplar 0 dan 65365
 
-        int i16 = 2;    //2 byt 
-        int i = 2;        //4 byt
-        int i32 = 2;    //4 byt
-        long i64 = 2;     //8 byt
+        int i16 = 2;    //2 byt      -32768 den +32767 ye kadar değer alır
+        int i = 2;        //4 byt    -2147483648 den +2147483647 ye kadar değer alır
+        int i32 = 2;    //4 byt      -2147483648 den +2147483647 ye kadar değer alır
+        int i64 = 2;     //8 byt    -9223372036854775808 den +9223372036854775807 ye kadar değer alır
 
-        uint ui = 2;      //4 byt
+        uint ui = 2;      //4 byt     0-4294967295
         long l = 4;       //8 byt
         ulong ul = 4;      //8 byt eksi değer alamayıp long kadar değer alıyor
 
